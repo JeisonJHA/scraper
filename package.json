@@ -1,0 +1,31 @@
+{
+  "name": "olx-searcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jeison.azevedo <jeison.azevedo@softplan.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "clear && ts-node-dev --respawn --transpile-only  src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "crawler": "^1.2.2",
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1",
+    "sequelize": "^6.3.4",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.21",
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.7",
+    "@types/puppeteer": "^3.0.1",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.61",
+    "typescript": "^3.9.7",
+    "tslint": "^6.1.3"
+  }
+}
